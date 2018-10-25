@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PhotoPicker">
+        <attr name="title" format="string"/>
+        <attr name="limit" format="integer"/>
+        <attr name="result_camera" format="integer"/>
+        <attr name="result_galery" format="integer"/>
+    </declare-styleable>
+</resources>
