@@ -5,11 +5,13 @@ A great and easy to use PhotoPicker for Android projects
 First you need to implement the library in your project:
 In File>New>Import module..., then a window will open, in this window choose in the browser where you downloaded de library. 
 And finally, click in finish.
-
 After this in your Gradle app implement the library:
 ```gradle 
 implementation project(':photopicker') 
 ```
+or
+[![](https://jitpack.io/v/mrocigno/PhotoPicker.svg)](https://jitpack.io/#mrocigno/PhotoPicker)
+
 That is it, the Library is implemented in your project.
 
 To use you need add the view in you XML file (somthing like this):
