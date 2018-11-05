@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.TypedArray;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.net.Uri;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
@@ -80,6 +81,9 @@ public class PhotoPicker extends FrameLayout {
             limit = ta.getInteger(R.styleable.PhotoPicker_limit, -1);
             result_camera = ta.getInteger(R.styleable.PhotoPicker_result_camera, 1);
             result_galery = ta.getInteger(R.styleable.PhotoPicker_result_galery, 2);
+            uploader_btnUp.setImageDrawable(ta.getDrawable(R.styleable.PhotoPicker_add_image));
+            uploader_btnUp.setColorFilter(ta.getColor(R.styleable.PhotoPicker_image_color, Color.WHITE));
+            uploader_btnUp.setBackgroundColor(ta.getColor(R.styleable.PhotoPicker_background_color, Color.BLACK));
         }
     }
 

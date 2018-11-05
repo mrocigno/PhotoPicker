@@ -20,6 +20,7 @@
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:padding="1dp"
         android:background="@drawable/background_upload_fotos">
 
         <!--<GridView-->
@@ -33,6 +34,10 @@
             android:id="@+id/uploader_rcyPhotos"
             android:layout_width="0dp"
             android:minHeight="@dimen/lnl_upload_foto"
+            android:layout_marginTop="-1dp"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginBottom="-1dp"
+            android:layout_marginStart="-1dp"
             android:layout_height="wrap_content"
             android:layout_weight="1">
 

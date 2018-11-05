@@ -9,12 +9,15 @@
     <lib.rocigno.photopicker.PhotoPicker
         android:id="@+id/photo"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:padding="20dp"
-        app:title="asdasda"
         app:limit="10"
         app:result_camera="1"
         app:result_galery="2"
-        android:layout_height="wrap_content"/>
+        app:image_color="#fff"
+        app:add_image="@drawable/ic_camera"
+        app:background_color="@android:color/holo_green_dark"
+        app:title="Person title" />
 
 
 </android.support.constraint.ConstraintLayout>
