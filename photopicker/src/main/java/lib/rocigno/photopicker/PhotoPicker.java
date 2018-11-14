@@ -162,6 +162,11 @@ public class PhotoPicker extends FrameLayout {
     }
 
     ArrayList<PhotosModel> arrayList = new ArrayList<>();
+
+    public ArrayList<PhotosModel> getArrayList() {
+        return arrayList;
+    }
+
     private void GuardaImagem(Uri uriBitmap) {
         try {
             int numColunms = arrayList.size();
